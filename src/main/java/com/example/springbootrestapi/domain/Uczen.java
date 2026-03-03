@@ -9,7 +9,7 @@ public class Uczen extends Osoba {
     private final long id;
     private List<Integer> oceny;
 
-    public Uczen(String imie, int wiek, List<Integer> oceny, long id) {
+    public Uczen(long id, String imie, int wiek, List<Integer> oceny) {
         super(imie, wiek);
         this.id = id;
         this.oceny = new ArrayList<>();

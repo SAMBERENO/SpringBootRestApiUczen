@@ -1,4 +1,4 @@
 package com.example.springbootrestapi.api.dto;
 
-public record DodajOceneRequest(int ocena) {
+public record ErrorResponse(String message) {
 }
